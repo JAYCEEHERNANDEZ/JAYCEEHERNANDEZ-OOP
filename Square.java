@@ -2,7 +2,7 @@ class Square extends Rectangle {
     protected double side;
 
     public Square(double side, double length, double width, String color, boolean filled){
-        super(width, width, color, filled);
+        super(width, color, filled);
     }
     public void setSide(double side){
         this.side = side;
